@@ -6,6 +6,8 @@ LOAD_MODULE = nil -- change this to the name of your file if you want to test yo
 
 -- /////////////////////////////////////////////////////////////////////////
 
+--ADDING THINGS
+
 modules = love.filesystem.getDirectoryItems('modules')
 
 for i = 1, #modules do
